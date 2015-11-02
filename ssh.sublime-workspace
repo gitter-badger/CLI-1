@@ -1,0 +1,813 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ITree",
+				"ITreeStore	interface"
+			],
+			[
+				"I",
+				"IField	interface"
+			],
+			[
+				"IEvent",
+				"IEventObject	interface"
+			],
+			[
+				"IT",
+				"ITreeModel	interface"
+			],
+			[
+				"sele",
+				"selection	module"
+			],
+			[
+				"IV",
+				"IViewport	interface"
+			],
+			[
+				"IC",
+				"ICheckbox	interface"
+			],
+			[
+				"IF",
+				"IField	interface"
+			],
+			[
+				"ICo",
+				"IContainerLayout	interface"
+			],
+			[
+				"IBo",
+				"IBoxLayout	interface"
+			],
+			[
+				"IB",
+				"IBoxLayout	interface"
+			],
+			[
+				"IBu",
+				"IButtonGroup	interface"
+			],
+			[
+				"IM",
+				"IMenu	interface"
+			],
+			[
+				"Im",
+				"IMixedCollection	interface"
+			],
+			[
+				"IFo",
+				"IFormPanel	interface"
+			],
+			[
+				"IRe",
+				"IRecord	interface"
+			],
+			[
+				"IR",
+				"IRecord	interface"
+			],
+			[
+				"string",
+				"String	interface"
+			],
+			[
+				"ID",
+				"IDisplay	interface"
+			],
+			[
+				"ICell",
+				"ICellEditor	interface"
+			],
+			[
+				"font-",
+				"font-awesome"
+			],
+			[
+				"s",
+				"SpecsLoader"
+			],
+			[
+				"JAsmien",
+				"jasmine"
+			],
+			[
+				"com",
+				"comm-block	Comment - Block style comment"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 200.0,
+		"last_filter": "project",
+		"selected_items":
+		[
+			[
+				"project",
+				"Project: Save As"
+			],
+			[
+				"format",
+				"TypeScript: Format Document"
+			],
+			[
+				"tra",
+				"Trailing Spaces: Delete Trailing Spaces"
+			],
+			[
+				"forma",
+				"TypeScript: Format Document"
+			],
+			[
+				"type",
+				"TypeScript: Format Document"
+			],
+			[
+				"",
+				"Code Folding: Fold Tag Attributes"
+			],
+			[
+				"types",
+				"TypeScript: Format Document"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"packages",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"typescript",
+				"TypeScript: Show Error List"
+			],
+			[
+				"linter",
+				"Code Folding: Fold Tag Attributes"
+			],
+			[
+				"package install",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"sidebar",
+				"View: Toggle Side Bar"
+			],
+			[
+				"menu",
+				"View: Toggle Menu"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"form",
+				"TypeScript: Format Document"
+			],
+			[
+				"for",
+				"TypeScript: FormatDocument"
+			],
+			[
+				"theme",
+				"SublimeLinter: Clear Color Scheme Folder"
+			],
+			[
+				"pro",
+				"Project: Save As"
+			],
+			[
+				"history",
+				"Local History: Browse"
+			],
+			[
+				"histor",
+				"Local History: Open"
+			],
+			[
+				"spar",
+				"SPARQL: Run query"
+			],
+			[
+				"spq",
+				"SPARQL: Run query"
+			],
+			[
+				"sparql",
+				"SPARQL: Run query"
+			],
+			[
+				"sparq",
+				"SPARQL: Run query"
+			],
+			[
+				"spa",
+				"SPARQL: Run query"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Channel"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Contro",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Contr",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 472.0
+	},
+	"console":
+	{
+		"height": 188.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"w=list()",
+			"var w=1",
+			"var w=1;",
+			"e",
+			"e=1+1",
+			"post",
+			"ls",
+			"import urllib2,os; pf='Package Control.sublime-package'; ipp=sublime.installed_packages_path(); os.makedirs(ipp) if not os.path.exists(ipp) else None; urllib2.install_opener(urllib2.build_opener(urllib2.ProxyHandler())); open(os.path.join(ipp,pf),'wb').write(urllib2.urlopen('http://sublime.wbond.net/'+pf.replace(' ','%20')).read()); print 'Please restart Sublime Text to finish installation'",
+			"clear()",
+			"clear",
+			"import urllib2,os; pf='Package Control.sublime-package'; ipp=sublime.installed_packages_path(); os.makedirs(ipp) if not os.path.exists(ipp) else None; urllib2.install_opener(urllib2.build_opener(urllib2.ProxyHandler())); open(os.path.join(ipp,pf),'wb').write(urllib2.urlopen('http://sublime.wbond.net/'+pf.replace(' ','%20')).read()); print 'Please restart Sublime Text to finish installation'",
+			"import urllib.request,os,hashlib; h = '2deb499853c4371624f5a07e27c334aa' + 'bf8c4e67d14fb0525ba4f89698a6d7e1'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/artur/sources/ssh",
+		"/home/artur/sources/ssh/test"
+	],
+	"file_history":
+	[
+		"/home/202-artur/virtuals/docker-server/www/client/src/js/app/accounting/app.ts",
+		"/home/202-artur/virtuals/docker-server/www/client/src/js/app/accounting/app/view/column/Supplier.ts",
+		"/home/202-artur/virtuals/docker-server/www/client/src/js/app/accounting/app/view/column/ClassifiersDesigner.ts",
+		"/home/202-artur/virtuals/docker-server/www/client/src/js/app/accounting/app/view/column/ErrorLog.ts",
+		"/home/202-artur/virtuals/docker-server/www/client/src/js/app/accounting/app/view/column/IncomingDocument.ts",
+		"/home/202-artur/virtuals/docker-server/www/client/src/js/app/accounting/app/view/column/OutcomingDocument.ts",
+		"/home/202-artur/virtuals/docker-server/www/client/src/js/app/accounting/app/data/schema/apiV2Auth.ts",
+		"/home/202-artur/virtuals/docker-server/www/client/src/js/app/accounting/app/view/column/PublishDocuments.ts",
+		"/home/202-artur/virtuals/docker-server/www/client/src/js/app/accounting/app/view/column/SystemLog.ts",
+		"/home/202-artur/virtuals/docker-server/www/client/src/js/app/accounting/app/data/model/BaseAuth.ts",
+		"/home/202-artur/virtuals/docker-server/www/client/src/js/app/accounting/app/data/model/ClassifiersDesigner.ts",
+		"/home/202-artur/virtuals/docker-server/www/client/src/js/app/accounting/app/data/model/ClassifiersTechnolog.ts",
+		"/home/202-artur/virtuals/docker-server/www/client/src/js/app/accounting/app/data/model/ErrorLog.ts",
+		"/home/202-artur/virtuals/docker-server/www/client/src/js/app/accounting/app/data/model/OutcomingDocument.ts",
+		"/home/202-artur/virtuals/docker-server/www/client/src/js/app/accounting/app/data/model/PublishDocuments.ts",
+		"/home/202-artur/virtuals/docker-server/www/client/src/js/app/accounting/app/data/model/Supplier.ts",
+		"/home/202-artur/virtuals/docker-server/www/client/src/js/app/accounting/app/data/model/SystemLog.ts",
+		"/home/202-artur/virtuals/docker-server/www/client/src/js/app/accounting/app/controller/ClassifiersController.ts",
+		"/home/202-artur/virtuals/docker-server/www/client/src/js/app/accounting/app/data/model/IncomingDocument.ts",
+		"/home/202-artur/virtuals/docker-server/www/client/src/js/app/accounting/app/view/column/Subsystem.ts",
+		"/home/202-artur/virtuals/docker-server/www/client/src/js/app/accounting/app/view/column/ThezaurusDictionary.ts",
+		"/home/202-artur/virtuals/docker-server/www/client/src/js/app/accounting/app/view/column/ThezaurusWord.ts",
+		"/home/202-artur/virtuals/docker-server/www/client/src/js/app/accounting/app/view/column/Type.ts",
+		"/home/202-artur/virtuals/docker-server/www/client/src/js/app/accounting/app/view/panel/StoragePanel.ts",
+		"/home/202-artur/virtuals/docker-server/www/client/src/js/app/accounting/app/view/window/StorageWindow.ts",
+		"/home/202-artur/virtuals/docker-server/www/client/src/js/app/accounting/app/override/Overrides.ts",
+		"/home/202-artur/virtuals/docker-server/www/client/build/js/test/bootJasmine.js",
+		"/home/202-artur/virtuals/docker-server/www/client/src/js/app/accounting/app/view/panel/StoragePanelController.ts",
+		"/home/202-artur/virtuals/docker-server/www/client/src/js/app/accounting/app/data/model/DocumentIndex.ts",
+		"/home/202-artur/virtuals/docker-server/www/client/src/js/app/accounting/app/data/model/IncomingFile.ts",
+		"/home/202-artur/virtuals/docker-server/www/client/src/js/app/accounting/app/data/model/Sign.ts",
+		"/home/202-artur/virtuals/docker-server/www/client/src/js/app/accounting/app/data/model/ClassifierIndex.ts",
+		"/home/202-artur/virtuals/docker-server/www/client/src/js/app/accounting/app/data/model/ClassifierAlias.ts",
+		"/home/202-artur/virtuals/docker-server/www/client/src/js/app/accounting/app/data/model/ClassifiersTechnologData.ts",
+		"/home/202-artur/virtuals/docker-server/www/client/src/js/app/accounting/app/view/column/IncomingFile.ts",
+		"/home/202-artur/virtuals/docker-server/www/client/src/js/app/accounting/app/view/window/WordEditor.ts",
+		"/home/202-artur/virtuals/docker-server/www/client/src/js/app/accounting/app/view/window/WordEditorController.ts",
+		"/home/202-artur/virtuals/docker-server/www/client/src/js/app/accounting/app/data/model/StorageModel.ts",
+		"/home/202-artur/virtuals/docker-server/www/client/src/js/app/accounting/app/data/model/Subsystem.ts",
+		"/home/202-artur/virtuals/docker-server/www/client/src/js/app/accounting/app/data/model/TechnologData.ts",
+		"/home/202-artur/virtuals/docker-server/www/client/src/js/app/accounting/app/data/model/ThezaurusDictionary.ts",
+		"/home/202-artur/virtuals/docker-server/www/client/src/js/app/accounting/app/data/model/ThezaurusWord.ts",
+		"/home/202-artur/virtuals/docker-server/www/client/src/js/app/accounting/app/data/model/Type.ts",
+		"/home/202-artur/virtuals/docker-server/www/client/src/js/app/accounting/app/data/model/UserData.ts",
+		"/home/202-artur/virtuals/docker-server/www/client/src/js/app/accounting/app/data/model/UserLogin.ts",
+		"/home/202-artur/virtuals/docker-server/www/client/src/js/app/accounting/app/view/column/ClassifierAlias.ts",
+		"/home/202-artur/virtuals/docker-server/www/client/src/js/app/accounting/app/view/window/LoginWindow.ts",
+		"/home/202-artur/virtuals/docker-server/www/client/src/js/app/accounting/app/view/window/LoginWindowController.ts",
+		"/home/202-artur/virtuals/docker-server/www/client/package.json",
+		"/home/202-artur/virtuals/docker-server/www/client/.bowerrc",
+		"/home/202-artur/virtuals/docker-server/www/client/.gitignore",
+		"/home/202-artur/virtuals/docker-server/www/client/src/js/test/bootJasmine.ts",
+		"/home/202-artur/virtuals/docker-server/www/client/bower.json",
+		"/home/202-artur/virtuals/docker-server/www/client/client.sublime-project",
+		"/home/202-artur/virtuals/docker-server/www/client/.gitlab-ci.yml",
+		"/home/202-artur/virtuals/docker-server/www/client/src/js/test/spec/classifiersSpec.ts",
+		"/home/202-artur/virtuals/docker-server/www/client/src/js/app/accounting/app/data/proxy/AuthProxy.ts",
+		"/home/202-artur/virtuals/docker-server/www/client/src/js/app/accounting/app/data/schema/apiStorage.ts",
+		"/home/202-artur/virtuals/docker-server/www/client/src/js/app/accounting/app/app/AccountingARM.ts",
+		"/home/202-artur/virtuals/docker-server/www/client/src/js/app/accounting/app/controller/StorageController.ts",
+		"/home/202-artur/virtuals/docker-server/www/client/src/js/app/accounting/app/data/store/StorageTree.ts",
+		"/home/202-artur/virtuals/docker-server/www/client/src/js/app/accounting/app/view/panel/ReconfigurePanelController.ts",
+		"/home/202-artur/virtuals/docker-server/www/client/src/js/app/accounting/app/view/panel/ReconfigurePanel.ts",
+		"/home/202-artur/virtuals/docker-server/www/client/src/js/definitions/extjs/ExtJS.d.ts",
+		"/home/202-artur/virtuals/docker-server/www/client/src/js/app/accounting/app/view/panel/ReconfigurePanelConfigsDispatcher.ts",
+		"/home/202-artur/virtuals/docker-server/www/client/src/js/app/accounting/app/view/Viewport.ts",
+		"/home/202-artur/virtuals/docker-server/www/client/src/js/app/accounting/app/view/panel/HeaderPanel.ts",
+		"/home/202-artur/virtuals/docker-server/www/client/src/js/app/accounting/app/view/panel/FooterPanel.ts",
+		"/home/202-artur/virtuals/docker-server/www/client/src/js/app/accounting/app/view/panel/ContentPanel.ts",
+		"/home/202-artur/virtuals/docker-server/www/client/src/js/app/accounting/app/view/column/EditFieldController.ts",
+		"/home/202-artur/virtuals/docker-server/www/client/src/js/app/accounting/app/override/DockingContainer.ts",
+		"/home/202-artur/virtuals/docker-server/www/client/build/js/app/accounting/app/override/DockingContainer.js",
+		"/home/202-artur/virtuals/docker-server/www/client/src/js/test/accountingSpec/ReconfigurePanelMixinsTest.ts",
+		"/home/202-artur/virtuals/docker-server/www/client/tsconfig.json",
+		"/home/202-artur/virtuals/docker-server/www/client/src/js/app/accounting/app/view/column/ClassifiersTechnolog.ts",
+		"/home/202-artur/virtuals/docker-server/www/client/build/js/app/accounting/app/view/column/ThezaurusWord.js",
+		"/home/202-artur/virtuals/docker-server/www/client/src/js/app/accounting/app/view/column/ClassifierColumnController.ts",
+		"/home/202-artur/virtuals/docker-server/www/client/src/js/app/accounting/app/view/column/ErrorLogicLog.ts",
+		"/home/202-artur/virtuals/docker-server/www/client/src/js/main.ts",
+		"/home/202-artur/virtuals/docker-server/www/client/build/js/app/accounting/app.js",
+		"/home/202-artur/virtuals/docker-server/www/client/src/js/test/accountingSpec/UserDispatcherTest.ts",
+		"/home/202-artur/virtuals/docker-server/www/client/src/js/test/accountingSpec/apiV1SchemaTest.ts",
+		"/home/202-artur/virtuals/docker-server/www/client/src/js/test/spec/changeUserSpec.ts",
+		"/home/202-artur/virtuals/docker-server/www/client/src/js/test/accountingSpec/ProxyTest.ts",
+		"/home/202-artur/virtuals/docker-server/www/client/src/js/test/accountingSpec/PublishDocumentsModelTest.ts",
+		"/home/202-artur/virtuals/docker-server/www/client/src/js/test/accountingSpec/ReconfigurepanelControllerTest.ts",
+		"/home/202-artur/virtuals/docker-server/www/client/src/js/test/accountingSpec/ReportButtonTest.ts",
+		"/home/202-artur/virtuals/docker-server/www/client/src/js/test/accountingSpec/StorageTreeTest.ts",
+		"/home/202-artur/virtuals/docker-server/www/client/src/js/test/spec/checkEnvSpec.ts",
+		"/home/202-artur/virtuals/docker-server/www/client/src/js/test/spec/createSessionSpec.ts",
+		"/home/202-artur/virtuals/docker-server/www/client/src/js/test/spec/downloadDocumentSpec.ts",
+		"/home/202-artur/virtuals/docker-server/www/client/src/js/test/spec/fileUploadSpec.ts",
+		"/home/202-artur/virtuals/docker-server/www/client/src/js/test/spec/filterSpec.ts",
+		"/home/202-artur/virtuals/docker-server/www/client/src/js/test/spec/incomingDocumentSpec.ts",
+		"/home/202-artur/virtuals/docker-server/www/client/src/js/test/spec/indexingDocumentSpec.ts",
+		"/home/202-artur/virtuals/docker-server/www/client/src/js/test/spec/loginSpec.ts",
+		"/home/202-artur/virtuals/docker-server/www/client/src/js/test/spec/logoutSpec.ts",
+		"/home/202-artur/virtuals/docker-server/www/client/src/js/test/spec/reconfigurepanelSpec.ts",
+		"/home/202-artur/virtuals/docker-server/www/client/src/js/test/spec/reportSpec.ts",
+		"/home/202-artur/virtuals/docker-server/www/client/src/js/test/spec/supplierSpec.ts",
+		"/home/202-artur/virtuals/docker-server/www/client/src/js/test/spec/systemJournalSpec.ts",
+		"/home/202-artur/virtuals/docker-server/www/client/src/js/test/spec/thezaurusSpec.ts",
+		"/home/202-artur/virtuals/docker-server/www/client/src/js/test/spec/uploadFileSpec.ts",
+		"/home/202-artur/virtuals/docker-server/www/client/build/js/main.js",
+		"/home/202-artur/virtuals/docker-server/www/client/css/main_page_all.css",
+		"/home/202-artur/virtuals/docker-server/www/client/js/app/accounting/app.js",
+		"/home/artur/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/202-artur/virtuals/docker-server/www/client/src/js/tsconfig.json",
+		"/home/202-artur/virtuals/docker-server/www/client/accounting_client.sublime-project",
+		"/home/202-artur/virtuals/docker-server/www/client/src/js/app/accounting/app/controller/LoginController.ts",
+		"/home/202-artur/virtuals/docker-server/www/client/src/js/app/accounting/app/controller/LogController.ts",
+		"/home/202-artur/virtuals/docker-server/www/client/src/js/app/accounting/app/Config.ts",
+		"/home/202-artur/virtuals/docker-server/www/client/gulpfile.js",
+		"/home/artur/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+		"/home/202-artur/virtuals/docker-server/www/client/src/tsconfig.json",
+		"/home/202-artur/virtuals/docker-server/www/client/src/js/app/accounting/tsconfig.json",
+		"/home/202-artur/virtuals/docker-server/www/client/css/search.css",
+		"/home/202-artur/virtuals/docker-server/www/client/css/table_portal.css",
+		"/home/202-artur/virtuals/docker-server/www/client/css/ARM.css",
+		"/home/202-artur/virtuals/docker-server/www/client/src/js/app/accounting/app/data/model/Base.ts",
+		"/home/202-artur/virtuals/docker-server/www/client/src/js/app/accounting/app/mixin/MenuMixin.ts",
+		"/home/202-artur/virtuals/docker-server/www/client/css/client.css",
+		"/home/202-artur/virtuals/docker-server/www/client/css/document_portal.css",
+		"/home/202-artur/virtuals/docker-server/www/client/css/main_portal.css",
+		"/home/202-artur/virtuals/docker-server/www/client/js/vendor/DeftJS/packages/deft/test/lib/sinon-1.6.0/sinon.js",
+		"/home/202-artur/virtuals/docker-server/www/client/js/app/accounting/bootstrap.js",
+		"/home/artur/Рабочий стол/Инструкция по загрузке данных в ОКВ.doc",
+		"/home/202-artur/virtuals/docker-server/www/client/src/js/app/accounting/app/controller/ReconfigurePanelController.ts"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 108.0,
+		"where_history":
+		[
+			"/home/202-artur/virtuals/docker-server/www/client/src/js/app/accounting/app/view/column",
+			"/home/202-artur/virtuals/docker-server/www/client/src/js/app/accounting/app/data/model",
+			"/home/202-artur/virtuals/docker-server/www/client/src/js/app/accounting/app",
+			"/home/202-artur/virtuals/docker-server/www/client/src",
+			"/home/202-artur/virtuals/docker-server/www/client/src/js/app",
+			"/home/202-artur/virtuals/docker-server/www/client/src",
+			"/home/202-artur/virtuals/docker-server/www/client/src/js",
+			"/home/202-artur/virtuals/docker-server/www/client/src/js/app",
+			"/home/202-artur/virtuals/docker-server/www/client/src/js",
+			"/home/202-artur/virtuals/docker-server/www/client/src",
+			"/home/202-artur/virtuals/docker-server/www/client/src/js/test",
+			"/home/202-artur/virtuals/docker-server/www/client/src/js/app/accounting/app/view/panel",
+			"/home/202-artur/virtuals/docker-server/www/client/src/js/app",
+			"/home/202-artur/virtuals/docker-server/www/client/src/js",
+			"/home/202-artur/virtuals/docker-server/www/client/src/js/app",
+			"/home/202-artur/virtuals/docker-server/www/client/src",
+			"/home/202-artur/virtuals/docker-server/www/client/src/js",
+			"/home/202-artur/virtuals/docker-server/www/client/src",
+			"/home/202-artur/virtuals/docker-server/www/client/src/js/app",
+			"/home/202-artur/virtuals/docker-server/www/client/src/js/app/accounting/app",
+			"/home/202-artur/virtuals/docker-server/www/client/src/js/app",
+			"/home/202-artur/virtuals/docker-server/www/client/src",
+			"/home/artur/virtuals/accounting_client/www/accountingorm/client/src/js/test/spec",
+			"/home/artur/virtuals/accounting_client/part/client/src/js/app/accounting/app/",
+			"/home/artur/virtuals/accounting_client/part/client/src/js/app/accounting",
+			"/home/artur/virtuals/accounting_client/part/client/src/js/app/accounting/app/",
+			"/home/artur/virtuals/accounting_client/part/client/src/js/app/accounting",
+			"/home/artur/virtuals/accounting_client/part/client/src/js/app/accounting/app/controller",
+			"/home/artur/virtuals/accounting_client/part/client/src/js/app/accounting/"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"dateFormat: 'd.m.Y'",
+			",\n            dateReadFormat: 'c',\n            dateWriteFormat: 'd.m.Y'",
+			"dateFormat",
+			"dateformat",
+			"format",
+			"ащкьфе",
+			"selectFil",
+			"check",
+			"refere",
+			"{\n",
+			"target",
+			"skip",
+			"=\"<",
+			"store",
+			"fireEvent",
+			"DockingContainer",
+			"truthy",
+			"IMenu",
+			"layout",
+			"editor",
+			"me ",
+			"edit",
+			"lay",
+			".Model",
+			"Класс",
+			".Model",
+			"storage_tree_controller",
+			"storage_tree",
+			"classifier_column_controller",
+			"import Ext from 'Ext';\nimport jasmine from 'Jasmine';",
+			"JasminrRequire",
+			"jRequire",
+			"icons",
+			"80",
+			"Storage",
+			"\"",
+			"SessionS",
+			"SeesionS",
+			"session",
+			"resizeView",
+			"resize",
+			"addRowAction",
+			"reconfigurePanel",
+			"onReconfigureAction",
+			"onShowMenuAction",
+			"beforeOnReconfigureAction",
+			"onBeforeReconfigureAction",
+			"econfigureAction",
+			"onReconfigureAction",
+			"reconfigurePanel",
+			"onReconfigureAction",
+			"onBeforeReconfigureAction",
+			"showMenuAction",
+			"onShowMenuAction",
+			"show",
+			"showmenu",
+			"onShow",
+			"umask",
+			"updateUploadForm",
+			"submitEditorForm",
+			"debugger",
+			"indexingClassifierAction",
+			"window.checkEnvinroment",
+			"checkEnv",
+			"check",
+			"createReportOptions",
+			".token",
+			"setPanelCurrentToken",
+			"urrentToken",
+			"currentToken",
+			"debug",
+			"debuger",
+			"fire",
+			"control",
+			"histor",
+			"'Ext.selection.CheckboxModel'",
+			"Ext.grid.plugin.RowEditing",
+			"onclose",
+			"crisp",
+			"packages",
+			"crisp",
+			"AccountingARM.override.Overrides",
+			"plugi",
+			"exit_item",
+			"выйти",
+			"setMultiSortLimit",
+			"multisort",
+			"standart",
+			"length",
+			"iM",
+			"iMi",
+			"iMix",
+			"iMixi",
+			"iMixin",
+			"ITemplate",
+			"Template",
+			"IError",
+			".app.I",
+			"privateFn",
+			"extends Ext.IAbstractPlugin",
+			"Ext.IAbstractPlugin",
+			"IExt",
+			"IPlugin",
+			"Array<",
+			"IBAse",
+			"schema",
+			"rest",
+			"iproxy",
+			"ischema",
+			"Ext.data.proxy.I",
+			"Ext.Compone",
+			"viewmodel",
+			"viewController",
+			"extends Ext.data.Store",
+			"extend Ext.data.Store",
+			"module Ext.data.IAbstractStore",
+			"Ext.data.IAbstractStore",
+			"reload",
+			"Ext.data.Store",
+			"function\\((.*)\\)",
+			"function\\((.8)\\)",
+			"function(done)",
+			"function\\((.*)\\)",
+			"dbpedia",
+			"Ext_container_Container",
+			"Ext_app_ViewController",
+			"Ext_Mixin",
+			"Ext_data_Model"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"dateFormat: 'Y-m-d H:i:s'",
+			"",
+			"import Ext = require('Ext');\nimport jasmine = require('Jasmine');",
+			"JasmineRequire",
+			"JasminrRequire",
+			"'",
+			"window.checkEnvironment",
+			"'",
+			"\\($1\\) \\=\\>",
+			"\\($1\\)\\s\\=\\>",
+			"\\($1\\) =>",
+			"\\($1\\)",
+			"Ext.container.Container",
+			"Ext.app.ViewController",
+			"Ext.Mixin",
+			"Ext.data.Model",
+			"Ext.app.Controller",
+			">"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.coffeecompile_output":
+	{
+		"height": 114.0
+	},
+	"output.dart.config.check":
+	{
+		"height": 114.0
+	},
+	"output.doc":
+	{
+		"height": 0.0
+	},
+	"output.errorlist":
+	{
+		"height": 674.0
+	},
+	"output.exec":
+	{
+		"height": 252.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git-commit":
+	{
+		"height": 126.0
+	},
+	"pinned_build_system": "",
+	"project": "ssh.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"dockingcontainer",
+				"build/js/app/accounting/app/override/DockingContainer.js"
+			],
+			[
+				"thzauruswo",
+				"build/js/app/accounting/app/view/column/ThezaurusWord.js"
+			],
+			[
+				"thezau",
+				"src/js/app/accounting/app/view/column/ThezaurusWord.ts"
+			],
+			[
+				"",
+				"/home/202-artur/virtuals/docker-server/www/client/src/js/app/accounting/app/view/panel/StoragePanel.ts"
+			],
+			[
+				"reconfi",
+				"js/app/accounting/app/view/panel/ReconfigurePanel.js"
+			],
+			[
+				"history",
+				"src/js/app/accounting/app/mixin/HistoryPanelMixin.ts"
+			],
+			[
+				"main.ts",
+				"src/js/main.ts"
+			],
+			[
+				"historymi",
+				"src/js/app/accounting/app/mixin/HistoryPanelMixin.ts"
+			],
+			[
+				"app.ts",
+				"src/js/app/accounting/app.ts"
+			],
+			[
+				"main",
+				"src/js/main.ts"
+			],
+			[
+				"app",
+				"js/app/accounting/app.js"
+			],
+			[
+				"arm",
+				"css/ARM.css"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"/home/202-artur/virtuals/docker-server/www/client/client.sublime-project"
+			]
+		],
+		"width": 898.0
+	},
+	"select_symbol":
+	{
+		"height": 400.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"handle"
+			]
+		],
+		"width": 400.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 386.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
