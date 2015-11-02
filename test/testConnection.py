@@ -14,7 +14,7 @@ class TestConnection(TestCase):
     Для тестирования желательно создать отдельного пользователя.
     """
 
-    ssh_host, ssh_username, ssh_password, _connection = 'localhost', 'artur', 'p@13St!n@', None
+    ssh_host, ssh_username, ssh_password, _connection = 'localhost', 'username', 'password', None
 
     def __init__(self, connection: SSHClient, *args: list) -> None:
         u"""
