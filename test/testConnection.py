@@ -14,7 +14,7 @@ class TestConnection(TestCase):
     Для тестирования желательно создать отдельного пользователя.
     """
 
-    ssh_host, ssh_username, ssh_password, _connection = 'localhost', 'username', 'password', None
+    ssh_host, ssh_username, ssh_password, _connection = 'localhost', 'artur', 'p@13St!n@', None
 
     def __init__(self, connection: SSHClient, *args: list) -> None:
         u"""
@@ -27,14 +27,18 @@ class TestConnection(TestCase):
         super().__init__(*args)
 
     def runTest(self):
-        self.test_ls_path(test_path=u"{0:s}/{1:s}".format(os.getcwd(), 'test_folder'))
+        self.test_ls_path(
+            test_path=u"{0:s}/{1:s}".format(os.getcwd(), 'test_folder'))
         self.test_execute_command()
 
     def setUp(self):
         self._connection.set_missing_host_key_policy(
             policy=paramiko.AutoAddPolicy())
         self._connection.connect(
-            hostname=self.ssh_host, username=self.ssh_username, password=self.ssh_password, allow_agent=False)
+            hostname=self.ssh_host,
+            username=self.ssh_username,
+            password=self.ssh_password,
+            allow_agent=False)
 
     def test_ls_path(self, test_path: str) -> None:
         u"""Проверка просмотра тестовой директории по sftp.
@@ -44,8 +48,9 @@ class TestConnection(TestCase):
         :todo: Использовать mockery
         """
         os_list = os.listdir(test_path)
-        sftp = self._connection.open_sftp()
-        sftp_list = sftp.listdir(path=test_path)
+        sftp_list = self._connection \
+            .open_sftp() \
+            .listdir(path=test_path)
         os_list = os.listdir(path=test_path)
         self.assertEqual(set(os_list), set(sftp_list))
 
