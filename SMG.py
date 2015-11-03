@@ -113,12 +113,17 @@ class SMGCommander():
 
         TODO: Добавить получение пользователей. Например, как в следующем
         примере:
-        stdin, users, stderr = self.connection.exec_command('sip users')
+        stdin, raw_users, stderr = self.connection.exec_command('sip users')
+        users = self.process_users(raw_users)
 
         """
         users = {
-            '1': 'user1',
-            '2': 'user2'
+            '1': {
+                'name': 'user1'
+            },
+            '2': {
+                'name': 'user2'
+            }
         }
 
         return users
@@ -167,7 +172,7 @@ def SMG():
 @click.option(
     '--host',
     default='localhost',
-    help=u"Хост")
+    help=u"Хост.")
 @click.option(
     '--user',
     help=u"Имя пользователя.")
