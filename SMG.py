@@ -116,7 +116,12 @@ class SMGCommander():
         stdin, users, stderr = self.connection.exec_command('sip users')
 
         """
-        return {}
+        users = {
+            '1': 'user1',
+            '2': 'user2'
+        }
+
+        return users
 
     @property
     def connection(self) -> AbstractConnection:
@@ -181,7 +186,7 @@ def show_users(host: str, user: str, password: str) -> None:
             password=password)
         # Получение списка пользователей и его вывод.
         users = connection.get_users()
-        click.echo(list(users))
+        click.echo(click.style('\n'.join(users), reverse=True, fg='cyan'))
     except Exception as error:
-        logging.warn(u"Не удалось получить спислк пользователей.")
+        logging.warn(u"Не удалось получить список пользователей.")
         logging.error(str(error))
