@@ -3,6 +3,7 @@
 import paramiko
 import os
 import logging
+import click
 
 from paramiko import SSHClient
 from paramiko.ssh_exception import SSHException
@@ -95,12 +96,27 @@ class SMGConnection(AbstractConnection):
 class SMGCommander():
 
     u"""Класс для выполнения комманд.
+
+    :todo: покрыть тестами
     """
 
     _connection = None
 
     def __init__(self, connection: AbstractConnection) -> None:
         self.connection = connection
+
+    def get_users(self) -> dict:
+        u"""Получение списка пользователей
+
+        Получение списка пользователй в виде словаря
+        идентификатор пользователя: данные пользователя
+
+        TODO: Добавить получение пользователей. Например, как в следующем
+        примере:
+        stdin, users, stderr = self.connection.exec_command('sip users')
+
+        """
+        return {}
 
     @property
     def connection(self) -> AbstractConnection:
@@ -123,3 +139,49 @@ class SMGCommander():
         :return: AbstractConnection
         """
         return self._connection
+
+
+def connect(host: str, user: str, password: str) -> SMGCommander:
+    u"""Соединение с сервером.
+    """
+    logging.info(u"Соединение для пользователя: {0:s}.".format(user))
+    with SMGConnection(
+            hostname=host,
+            username=user,
+            password=password) as connection:
+        return SMGCommander(connection=connection)
+
+
+@click.group()
+@click.version_option('0.0.1')
+def SMG():
+    ...
+
+
+@SMG.command()
+@click.option(
+    '--host',
+    default='localhost',
+    help=u"Хост")
+@click.option(
+    '--user',
+    help=u"Имя пользователя.")
+@click.option(
+    '--password',
+    prompt=True,
+    confirmation_prompt=True,
+    hide_input=True,
+    help=u"Пароль пользователя.")
+def show_users(host: str, user: str, password: str) -> None:
+    logging.info(u"Начало работы.")
+    try:
+        connection = connect(
+            host=host,
+            user=user,
+            password=password)
+        # Получение списка пользователей и его вывод.
+        users = connection.get_users()
+        click.echo(list(users))
+    except Exception as error:
+        logging.warn(u"Не удалось получить спислк пользователей.")
+        logging.error(str(error))

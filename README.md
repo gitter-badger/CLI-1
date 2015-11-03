@@ -6,14 +6,14 @@
 ===
 Перейти в корневую директорию и выполнить команду:
 ```sh
-sudo -E pip install --upgrade --requirement requirements.txt
+pip install --upgrade --requirement requirements.txt
 ```
 
-Установка
+Справка
 ===
 Перейти в корневую директорию и выполнить команду:
 ```sh
-./cli.py
+./cli.py --help
 ```
 
 Тесты

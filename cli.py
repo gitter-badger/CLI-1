@@ -6,37 +6,19 @@ u"""Тестирование клиента учёта файлов и доку�
 :todo: Добавить "прогрев" кеша перед запуском тестирования.
 """
 
-import paramiko
-import click
 import logging
-import errno
 
-from sys import exit, argv
-from paramiko import SSHClient
-from SMG import SMGConnection, SMGCommander
+from SMG import SMG
 
 logs = {
     'production': u"logs/prod.logs",
     'debug': u"logs/debug.logs"
 }
 
-# @click.command()
-
-
-def main(*data: dict) -> None:
-    logging.info(u"Начало работы.")
-    try:
-	    with SMGConnection(
-	            hostname=u"localhost",
-	            username=u"username",
-	            password=u"password") as connection:
-	        commander = SMGCommander(connection=connection)
-    except Exception as error:
-        logging.error(str(error))
+logging.basicConfig(
+    format=u"%(levelname)-8s [%(asctime)s] %(message)s",
+    level=logging.DEBUG,
+    filename=logs['debug'])
 
 if u"__main__" == __name__:
-    logging.basicConfig(
-        format=u"%(levelname)-8s [%(asctime)s] %(message)s",
-        level=logging.DEBUG,
-        filename=logs['debug'])
-    main(*argv[1:]) and exit(0) or exit(errno.EFAULT)
+    SMG()

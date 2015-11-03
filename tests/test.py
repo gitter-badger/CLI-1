@@ -8,25 +8,11 @@ import paramiko
 import logging
 import errno
 import os
+import test_suites
 
 from paramiko import SSHClient
-
-from testConnection import TestConnection
-
-from sys import exit, argv
-
-from unittest import TextTestRunner, TestSuite
-
-
-def connection_suite(connection: SSHClient) -> TestSuite:
-    u"""Набор тестов для проверки ssh-соединения.
-
-    :return: TestSuite набор тестов
-    """
-    suite = TestSuite()
-    suite.addTest(TestConnection(connection))
-
-    return suite
+from sys import exit
+from unittest import TextTestRunner
 
 
 def main() -> None:
@@ -35,8 +21,8 @@ def main() -> None:
     :return: list набор выполненных тестов
     """
     test_runner, ssh = TextTestRunner(), SSHClient()
-    result = test_runner.run(connection_suite(ssh))
+    result = test_runner.run(test_suites.connection_suite(ssh))
 
 
 if u"__main__" == __name__:
-    main() and exit(0) or exit(errno.EFAULT)
+    exit(0 if main() else errno.EFAULT)
