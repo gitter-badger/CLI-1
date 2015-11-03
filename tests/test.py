@@ -4,10 +4,7 @@
 u"""Тестирование клиента ssh.
 """
 
-import paramiko
-import logging
 import errno
-import os
 import test_suites
 
 from paramiko import SSHClient

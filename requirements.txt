@@ -2,3 +2,4 @@ virtualenv
 Click
 paramiko
 unittest2
+inject

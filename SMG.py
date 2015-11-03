@@ -74,8 +74,7 @@ class SMGConnection(AbstractConnection):
         :param password: пароль пользователя
         """
         connection = SSHClient()
-        connection.set_missing_host_key_policy(
-            policy=paramiko.AutoAddPolicy())
+        connection.set_missing_host_key_policy(policy=paramiko.AutoAddPolicy())
         connection.connect(
             hostname=hostname,
             username=username,
@@ -97,7 +96,7 @@ class SMGCommander():
 
     u"""Класс для выполнения комманд.
 
-    :todo: покрыть тестами
+    TODO: покрыть тестами
     """
 
     _connection = None
@@ -191,7 +190,7 @@ def show_users(host: str, user: str, password: str) -> None:
             password=password)
         # Получение списка пользователей и его вывод.
         users = connection.get_users()
-        click.echo(click.style('\n'.join(users), reverse=True, fg='cyan'))
+        click.echo_via_pager(click.style('\n'.join(users), reverse=True, fg='cyan'))
     except Exception as error:
         logging.warn(u"Не удалось получить список пользователей.")
         logging.error(str(error))

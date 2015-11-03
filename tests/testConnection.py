@@ -48,7 +48,7 @@ class TestConnection(TestCase):
 
         :param test_path: string
         :return: None
-        :todo: Использовать mockery
+        TODO: Использовать mockery
         """
         os_list = os.listdir(test_path)
         sftp_list = self._connection \
