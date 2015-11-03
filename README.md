@@ -6,7 +6,7 @@
 ===
 Перейти в корневую директорию и выполнить команду:
 ```sh
-sudo pip install -r requirements.txt
+sudo -E pip install --upgrade --requirement requirements.txt
 ```
 
 Тесты

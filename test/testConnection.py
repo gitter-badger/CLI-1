@@ -72,7 +72,6 @@ class TestConnection(TestCase):
     def connection(self, connection: SSHClient) -> None:
         u"""
         :param connection: SSHClient
-
         :return: None
         """
         self._connection = connection

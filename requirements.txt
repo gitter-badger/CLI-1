@@ -1,2 +1,4 @@
+click
 paramiko
 unittest2
+virtualenv
