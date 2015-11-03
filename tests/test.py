@@ -5,15 +5,16 @@ u"""Тестирование клиента ssh.
 """
 
 import paramiko
+import logging
+import errno
+import os
 
 from paramiko import SSHClient
 
 from testConnection import TestConnection
 
-import logging
-import errno
-import os
 from sys import exit, argv
+
 from unittest import TextTestRunner, TestSuite
 
 def connection_suite(connection: SSHClient) -> TestSuite:
