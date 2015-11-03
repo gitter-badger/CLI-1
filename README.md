@@ -9,9 +9,16 @@
 sudo -E pip install --upgrade --requirement requirements.txt
 ```
 
+Установка
+===
+Перейти в корневую директорию и выполнить команду:
+```sh
+./cli.py
+```
+
 Тесты
 ===
 Для запуска тестов перейти в директорию tests и выполнить команду:
 ```sh
-./main.py
+./test.py
 ```

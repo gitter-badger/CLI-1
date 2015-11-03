@@ -7,9 +7,13 @@ u"""Тестирование клиента учёта файлов и доку�
 """
 
 import paramiko
+import click
 
 from sys import exit, argv
 from paramiko import SSHClient
 
+def main() -> None:
+	click.echo('Hello, World!!!')
+
 if u"__main__" == __name__:
-    ...
+    main()
