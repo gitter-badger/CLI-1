@@ -31,8 +31,8 @@ def main(*data: dict) -> None:
 	            username=u"username",
 	            password=u"password") as connection:
 	        commander = SMGCommander(connection=connection)
-	except Exception as error:
-		logging.error(str(error))
+    except Exception as error:
+        logging.error(str(error))
 
 if u"__main__" == __name__:
     logging.basicConfig(
