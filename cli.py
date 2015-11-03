@@ -25,11 +25,14 @@ logs = {
 
 def main(*data: dict) -> None:
     logging.info(u"Начало работы.")
-    with SMGConnection(
-            hostname = u"localhost",
-            username = u"username",
-            password = u"password") as connection:
-        commander = SMGCommander(connection = connection)
+    try:
+	    with SMGConnection(
+	            hostname=u"localhost",
+	            username=u"username",
+	            password=u"password") as connection:
+	        commander = SMGCommander(connection=connection)
+	except Exception as error:
+		logging.error(str(error))
 
 if u"__main__" == __name__:
     logging.basicConfig(

@@ -17,6 +17,7 @@ from sys import exit, argv
 
 from unittest import TextTestRunner, TestSuite
 
+
 def connection_suite(connection: SSHClient) -> TestSuite:
     u"""Набор тестов для проверки ssh-соединения.
 

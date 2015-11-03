@@ -28,17 +28,17 @@ class TestConnection(TestCase):
 
     def runTest(self):
         self.test_ls_path(
-            test_path = u"{0:s}/{1:s}".format(os.getcwd(), 'test_folder'))
+            test_path=u"{0:s}/{1:s}".format(os.getcwd(), 'test_folder'))
         self.test_execute_command()
 
     def setUp(self):
         self._connection.set_missing_host_key_policy(
             policy=paramiko.AutoAddPolicy())
         self._connection.connect(
-            hostname = self._ssh_host,
-            username = self._ssh_username,
-            password = self._ssh_password,
-            allow_agent = False)
+            hostname=self._ssh_host,
+            username=self._ssh_username,
+            password=self._ssh_password,
+            allow_agent=False)
 
     def tearDown(self) -> None:
         self.connection.close()
@@ -53,8 +53,8 @@ class TestConnection(TestCase):
         os_list = os.listdir(test_path)
         sftp_list = self._connection \
             .open_sftp() \
-            .listdir(path = test_path)
-        os_list = os.listdir(path = test_path)
+            .listdir(path=test_path)
+        os_list = os.listdir(path=test_path)
         self.assertEqual(set(os_list), set(sftp_list))
 
     def test_execute_command(self) -> None:

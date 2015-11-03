@@ -52,12 +52,11 @@ class SMGConnection(AbstractConnection):
         """
         try:
             self.init_connection(
-                hostname = hostname,
-                username = username,
-                password = password)
+                hostname=hostname,
+                username=username,
+                password=password)
         except SSHException as error:
             logging.error(u"Не удалось соединиться с сервером.")
-            logging.error(str(error))
             raise error
 
     def __enter__(self) -> object:
@@ -65,7 +64,6 @@ class SMGConnection(AbstractConnection):
 
     def __exit__(self, *args: list) -> None:
         self.close_connection()
-
 
     def init_connection(self, hostname: str, username: str, password: str) -> None:
         u"""Инициализация соединения.
@@ -76,12 +74,12 @@ class SMGConnection(AbstractConnection):
         """
         connection = SSHClient()
         connection.set_missing_host_key_policy(
-            policy = paramiko.AutoAddPolicy())
+            policy=paramiko.AutoAddPolicy())
         connection.connect(
-            hostname = hostname,
-            username = username,
-            password = password,
-            allow_agent = False)
+            hostname=hostname,
+            username=username,
+            password=password,
+            allow_agent=False)
         self.connection = connection
         logging.info(u"Инициализация соединения.")
 
@@ -91,10 +89,11 @@ class SMGConnection(AbstractConnection):
             logging.info(u"Закрытие соединения.")
         except Exception as error:
             logging.error(u"Не удалось закрыть соединение.")
-            logging.error(str(error))
             raise error
 
+
 class SMGCommander():
+
     u"""Класс для выполнения комманд.
     """
 
