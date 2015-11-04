@@ -1,5 +1,7 @@
 Клиент SSH
 ---
+
+[![Join the chat at https://gitter.im/minlekul/CLI](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/minlekul/CLI?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 Клиент для удалённого исполнения команд.
 
 Установка
